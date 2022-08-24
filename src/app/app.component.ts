@@ -25,26 +25,26 @@ export class AppComponent {
     {
       radius: 40,
       segments: [
-        { name: 'Orange', count: 70, color: 'LightSeaGreen' },
-        { name: 'Apple', count: 30, color: 'lightGray' },
+        { name: 'Orange', count: 70, color: '#31B78F' },
+        { name: 'Apple', count: 30, color: '#E9EFF9' },
       ],
       total: 100,
     },
     {
       radius: 30,
       segments: [
-        { name: 'Orange', count: 80, color: 'orange' },
-        { name: 'Blue', count: 10, color: 'navy' },
-        { name: 'Purple', count: 10, color: 'orchid' },
+        { name: 'Orange', count: 80, color: '#FFAC81' },
+        { name: 'Blue', count: 10, color: '#265DC1' },
+        { name: 'Purple', count: 10, color: '#9692CD' },
       ],
       total: 100,
     },
     {
       radius: 20,
       segments: [
-        { name: 'Orange', count: 80, color: 'red' },
+        { name: 'Orange', count: 80, color: 'orange' },
         { name: 'Blue', count: 10, color: 'green' },
-        { name: 'Purple', count: 10, color: 'blue' },
+        { name: 'Purple', count: 10, color: 'navy' },
       ],
       total: 100,
     },
@@ -52,7 +52,7 @@ export class AppComponent {
       radius: 10,
       segments: [
         { name: 'Orange', count: 80, color: 'cyan' },
-        { name: 'Blue', count: 10, color: 'silver' },
+        { name: 'Blue', count: 10, color: 'red' },
       ],
       total: 100,
     },
