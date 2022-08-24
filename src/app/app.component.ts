@@ -7,19 +7,6 @@ import { ICircle } from './donut.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  // items1: Array<{ name: string; count: number; color: string }> = [
-  //   { name: 'Orange', count: 70, color: 'LightSeaGreen' },
-  //   { name: 'Apple', count: 30, color: 'lightGray' },
-
-  // ];
-
-  // items2: Array<{ name: string; count: number; color: string }> = [
-  //   { name: 'Orange', count: 80, color: 'orange' },
-  //   { name: 'Blue', count: 10, color: 'navy' },
-  //   { name: 'Purple', count: 10, color: 'orchid' },
-  // ];
-
-  // radisus=[10,20,30];
 
   circles: Array<ICircle> = [
     {
