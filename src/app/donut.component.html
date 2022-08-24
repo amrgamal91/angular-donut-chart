@@ -1,0 +1,20 @@
+<div class="main-svg">
+  <svg height="100%" width="100%" viewBox="0 0 100 100">
+    <g *ngFor="let x of circles; let i = index">
+      <circle
+        *ngFor="let item of x.segments; let j = index"
+        cx="50"
+        cy="50"
+        [attr.r]="x.radius"
+        fill="transparent"
+        stroke-width="3"
+        [attr.stroke-dasharray]="getPerimeter(50)"
+        [attr.stroke-dashoffset]="getOffset(50, j, i)"
+        [attr.stroke]="getColor(j, i)"
+      />
+    </g>
+  </svg>
+  <div class="content">
+    <ng-content></ng-content>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+h1 {
+  font-family: Lato;
+}
+
+.main-svg {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
